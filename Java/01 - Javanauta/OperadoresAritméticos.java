@@ -14,8 +14,8 @@ public class OperadoresAritméticos {
         double salarioMensalComDesconto = salarioMensal - aluguel - cursoIngles;
 
 
-        System.out.println("Aluguel: R$ " + aluguel);
         System.out.println("Curso de Inglês: R$ " + cursoIngles);
+        System.out.println("Aluguel: R$ " + aluguel);
         System.out.println("Salário Mensal: R$ " + salarioMensal);
         System.out.println("Salário Anual: R$ " + salarioAnual);
         System.out.println("Salário Mensal com Desconto: R$ " + salarioMensalComDesconto);
