@@ -6,6 +6,5 @@ public class OperadoresAritméticos {
         // 3. Multiplicação (*)
         // 4. Divisão (/)
         // 5. Módulo (%)
-        
     }
 }
