@@ -6,15 +6,21 @@ public class OperadoresAritméticos {
         // 3. Multiplicação (*)
         // 4. Divisão (/)
         // 5. Módulo (%)
-        double energia = 83.4;
-        double agua = 30.5;
-        double internet = 80.0;
-        double totalContas = energia + agua + internet;
-        double energiaAumento = energia * 1.05; // Aumento de 5% na conta de energia
-        double mediaContas = totalContas / 3;
+        
+        int aluguel = 250;
+        int cursoIngles = 360;
+        double salarioMensal = 3500.50;
+        double salarioAnual = salarioMensal * 12;
+        double salarioMensalComDesconto = salarioMensal - aluguel - cursoIngles;
 
-        System.out.println("Total das contas: " + totalContas);
-        System.out.println("Conta de energia após aumento: " + energiaAumento);
-        System.out.println("Média das contas: " + mediaContas);
-    }
-}
+
+        System.out.println("Aluguel: R$ " + aluguel);
+        System.out.println("Curso de Inglês: R$ " + cursoIngles);
+        System.out.println("Salário Mensal: R$ " + salarioMensal);
+        System.out.println("Salário Anual: R$ " + salarioAnual);
+        System.out.println("Salário Mensal com Desconto: R$ " + salarioMensalComDesconto);
+                                        }   
+
+                                }
+
+    
